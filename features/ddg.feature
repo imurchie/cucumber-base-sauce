@@ -1,5 +1,5 @@
 @selenium @ddg
-Feature: Search for Ruby gems with !rubygems
+Feature: Cucumber, Search for Ruby gems with !rubygems
   As a Ruby developer
   In order to quickly find fancy gems
   The '!rubygems <gemname>` query should take me directly to fancy gems
