@@ -4,5 +4,6 @@ require "sauce"
 
 
 Sauce.config do |c|
-  c[:browsers] = [['Mac', 'Chrome', '']]
+  ["Windows 8", "Internet Explorer", "10"],             
+  ["Windows 7", "Firefox", "20"]
 end
