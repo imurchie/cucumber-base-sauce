@@ -50,4 +50,5 @@ gem 'capybara', '~>2.1.0'
 gem 'database_cleaner'
 gem 'sauce-connect'
 gem "sauce-cucumber", :require => false, :path => "/Users/isaac/code/sauce_ruby/gems/sauce-cucumber"
-gem "sauce"
+gem "sauce", :path => "/Users/isaac/code/sauce_ruby"
+gem 'sauce_whisk', :path => "/Users/isaac/code/sauce_whisk"
