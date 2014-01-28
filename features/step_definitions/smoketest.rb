@@ -4,6 +4,7 @@ Given(/^I am checking out many pages$/) do
   t = "https://www.tumblr.com"
   [g,l,t].each do |site|
     visit site
-    sleep 2
+    page.should have_text("blah blah blah")
+    # sleep 2
   end
 end
