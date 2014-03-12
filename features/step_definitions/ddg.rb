@@ -2,8 +2,8 @@ Given(/^I am on the DDG homepage$/) do
   visit 'http://duckduckgo.com'
 end
 
-When(/^I search for "(.*?)"$/) do |query|
-# When /^I search for "([^"]*)"$/ do |query|
+# When(/^I search for "(.*?)"$/) do |query|
+When /^I search for "([^"]*)"$/ do |query|
   @query = query
   fill_in 'q', :with => query
   click_button "search_button_homepage"
